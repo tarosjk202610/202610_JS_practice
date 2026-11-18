@@ -158,6 +158,7 @@ const priceElement = document.querySelector('#product-price'); // CSSで使う�
 console.log(priceElement);
 
 // テキストの入れ替え
+console.log(titleElement.textContent);
 titleElement.textContent = 'AURORA ONE - マットブラック';
 priceElement.textContent = '￥29,800';
 
