@@ -132,3 +132,35 @@ function calculateTaxPrice(basePrice) {
 
 let finalPrice = calculateTaxPrice(29800);
 console.log('税込価格', finalPrice);
+
+// ================================
+// アロー関数
+
+function multiply(a, b) {
+  return a * b;
+}
+
+const multiply2 = (a, b) => {
+  return a * b;
+};
+
+const multiply3 = (a, b) => a * b;
+
+console.log( multiply(2,3) );
+console.log( multiply2(2,3) );
+console.log( multiply3(2,3) );
+
+// ================================
+// DOM操作
+const titleElement = document.getElementById('product-title');
+console.log(titleElement);
+const priceElement = document.querySelector('#product-price'); // CSSで使うセレクタ
+console.log(priceElement);
+
+// テキストの入れ替え
+titleElement.textContent = 'AURORA ONE - マットブラック';
+priceElement.textContent = '￥29,800';
+
+// スタイルの変更
+titleElement.style.color = '#00d2ff';
+priceElement.style.backgroundColor = 'orange';
