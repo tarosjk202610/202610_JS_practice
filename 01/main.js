@@ -121,3 +121,14 @@ function greetUser(userName) {
 
 greetUser('たなか');
 greetUser('さとう');
+
+// 戻り値の例
+function calculateTaxPrice(basePrice) {
+  let taxIncluded = basePrice * 1.1;
+  return taxIncluded; //戻り値を作る / 関数の処理をここでストップする
+
+  console.log('税込計算を行いました');
+}
+
+let finalPrice = calculateTaxPrice(29800);
+console.log('税込価格', finalPrice);
