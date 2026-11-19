@@ -195,5 +195,5 @@ console.log(mainImg.getAttribute('src'));
 srcText.textContent = mainImg.getAttribute('src');
 
 changeBtn.addEventListener('click', function(){
-  mainImg.setAttribute();
+  mainImg.setAttribute('src');
 });
