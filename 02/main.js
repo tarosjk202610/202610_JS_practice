@@ -27,3 +27,4 @@ function updateColorSpec(colorName, priceText, titleColor){
 // ================================
 // イベント処理
 
+
