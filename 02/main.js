@@ -15,5 +15,6 @@ const btnSilver = document.querySelector('#btn-silver');
  * @param {string} colorName 色の名前
  * @param {string} priceText 価格
  * @param {string} titleColor タイトルの文字色
+ * @return {void}
  */
 function updateColorSpec(colorName, priceText, titleColor){}
