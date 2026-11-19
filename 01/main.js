@@ -208,4 +208,6 @@ const itemPrice = document.querySelector('#item-price') //価格表示欄
 const btnA = document.querySelector('#btn-a') //ボタンA
 const btnB = document.querySelector('#btn-b') //ボタンB
 
-btnA.addEventListener('click', function(){});
+btnA.addEventListener('click', function(){
+  itemName.textContent = btnA.dataset.name;
+});
