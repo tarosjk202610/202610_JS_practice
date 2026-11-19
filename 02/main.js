@@ -21,3 +21,4 @@ function updateColorSpec(colorName, priceText, titleColor){
   // nameEl.textContent = 'AURORA ONE - ' + colorName;
   nameEl.textContent = `AURORA ONE - ${colorName}`; //テンプレートリテラル
 }
+updateColorSpec('レッド');
