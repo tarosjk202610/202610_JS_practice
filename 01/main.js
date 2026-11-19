@@ -196,4 +196,5 @@ srcText.textContent = mainImg.getAttribute('src');
 
 changeBtn.addEventListener('click', function(){
   mainImg.setAttribute('src', 'https://picsum.photos/id/667/300/200');
+  mainImg.setAttribute('alt', '風景写真B');
 });
