@@ -181,4 +181,6 @@ buttonElement.addEventListener('click', function(){
 const card = document.querySelector('#my-card');
 const toggleBtn = document.querySelector('#toggle-btn');
 
-toggleBtn.addEventListener();
+toggleBtn.addEventListener('click', function(){
+  card.classList.toggle('is-active');
+});
