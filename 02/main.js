@@ -23,3 +23,7 @@ function updateColorSpec(colorName, priceText, titleColor){
   priceEl.textContent = priceText;
   nameEl.style.color = titleColor;
 }
+
+// ================================
+// イベント処理
+
