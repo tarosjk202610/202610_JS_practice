@@ -187,7 +187,6 @@ toggleBtn.addEventListener('click', function(){
 
 // ================================
 // getAttribute / setAttribute
-
 const mainImg = document.querySelector('#main-img');// 画像
 const changeBtn = document.querySelector('#change-img-btn');// ボタン
 const srcText = document.querySelector('#src-text');// src属性の内容
