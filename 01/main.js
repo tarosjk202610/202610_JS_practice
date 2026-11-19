@@ -195,5 +195,5 @@ console.log(mainImg.getAttribute('src'));
 srcText.textContent = mainImg.getAttribute('src');
 
 changeBtn.addEventListener('click', function(){
-  mainImg.setAttribute('src');
+  mainImg.setAttribute('src', 'https://picsum.photos/id/314/300/200');
 });
