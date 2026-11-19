@@ -193,3 +193,5 @@ const srcText = document.querySelector('#src-text');// src属性の内容
 
 console.log(mainImg.getAttribute('src'));
 srcText.textContent = mainImg.getAttribute('src');
+
+changeBtn.addEventListener('click', function(){});
