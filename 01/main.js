@@ -171,4 +171,6 @@ priceElement.style.backgroundColor = 'orange';
 const buttonElement = document.querySelector('#btn');
 const messageElement = document.querySelector('#message');
 
-buttonElement.addEventListener();
+buttonElement.addEventListener('click', function(){
+  
+});
