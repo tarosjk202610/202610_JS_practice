@@ -169,3 +169,4 @@ priceElement.style.backgroundColor = 'orange';
 // ================================
 // イベント処理
 const buttonElement = document.querySelector('#btn');
+const messageElement = document.querySelector('#message');
