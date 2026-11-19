@@ -212,3 +212,7 @@ btnA.addEventListener('click', function(){
   itemName.textContent = btnA.dataset.name;
   itemPrice.textContent = btnA.dataset.price;
 });
+btnB.addEventListener('click', function(){
+  itemName.textContent = btnB.dataset.name;
+  itemPrice.textContent = btnB.dataset.price;
+});
