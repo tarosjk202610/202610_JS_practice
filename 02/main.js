@@ -26,5 +26,4 @@ function updateColorSpec(colorName, priceText, titleColor){
 
 // ================================
 // イベント処理
-
-
+btnBlack.addEventListener('click', function(){});
