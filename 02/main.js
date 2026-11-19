@@ -33,3 +33,7 @@ btnBlack.addEventListener('click', function(){
 btnBlue.addEventListener('click', function(){
   updateColorSpec('オーロラブルー', '￥32,800（限定価格・税込）', '#00d2ff');
 });
+
+btnSilver.addEventListener('click', function(){
+  updateColorSpec('プラチナシルバー', '￥29,800（税込）', '#8a9ea7');
+});
