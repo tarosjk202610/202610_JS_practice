@@ -178,4 +178,4 @@ buttonElement.addEventListener('click', function(){
 
 // ================================
 // classList
-
+const card = document.querySelector('#my-card');
