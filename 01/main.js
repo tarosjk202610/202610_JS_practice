@@ -165,3 +165,7 @@ priceElement.textContent = '￥29,800';
 // スタイルの変更
 titleElement.style.color = '#00d2ff';
 priceElement.style.backgroundColor = 'orange';
+
+// ================================
+// イベント処理
+const buttonElement = document.querySelector('#btn');
