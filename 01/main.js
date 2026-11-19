@@ -172,5 +172,6 @@ const buttonElement = document.querySelector('#btn');
 const messageElement = document.querySelector('#message');
 
 buttonElement.addEventListener('click', function(){
-  
+  messageElement.textContent = 'ボタンがクリックされました！';
+  messageElement.style.color = '#00d2ff';
 });
