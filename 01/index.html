@@ -6,7 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
+<style>
+    /* 基本のカードスタイル */
+    .card {
+      width: 250px;
+      padding: 20px;
+      border: 2px solid #cbd5e1;
+      border-radius: 8px;
+      background-color: #ffffff;
+      transition: all 0.3s ease;
+      margin-bottom: 20px;
+    }
 
+    /* JavaScriptで付与するアクティブ状態のクラス */
+    .card.is-active {
+      border-color: #4f46e5;
+      background-color: #eeef2f1; /* 薄いパープル */
+      transform: translateY(-4px);
+    }
+  </style>
 </head>
 
 <body>
