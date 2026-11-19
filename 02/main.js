@@ -10,7 +10,6 @@ const btnSilver = document.querySelector('#btn-silver');
 // 関数 - 表示を変更する
 // const updateColorSpec = function(){}; //関数式
 /**
- * カラーシミュレーターの表示を変更する
+ * カラーシミュレーターの表示を変更する(JSDoc)
  */
 function updateColorSpec(colorName, priceText, titleColor){}
-
