@@ -18,6 +18,6 @@ const btnSilver = document.querySelector('#btn-silver');
  * @return {void}
  */
 function updateColorSpec(colorName, priceText, titleColor){
-  nameEl.textContent = 'AURORA ONE - ' + colorName;
-  nameEl.textContent = `AURORA ONE -  ${colorName}`;
+  // nameEl.textContent = 'AURORA ONE - ' + colorName;
+  nameEl.textContent = `AURORA ONE - ${colorName}`; //テンプレートリテラル
 }
