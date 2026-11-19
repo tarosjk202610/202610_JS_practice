@@ -26,4 +26,6 @@ function updateColorSpec(colorName, priceText, titleColor){
 
 // ================================
 // イベント処理
-btnBlack.addEventListener('click', function(){});
+btnBlack.addEventListener('click', function(){
+  updateColorSpec('マットブラック', '￥29,800（税込）', '#111');
+});
