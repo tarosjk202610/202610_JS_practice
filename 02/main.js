@@ -16,6 +16,7 @@ const btnSilver = document.querySelector('#btn-silver');
  */
 function updateColorSpec(button) {
   console.log(button);
+  console.dir(button);
 }
 /**
  * カラーシミュレーターの表示を変更する(JSDoc)
