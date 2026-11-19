@@ -19,4 +19,5 @@ const btnSilver = document.querySelector('#btn-silver');
  */
 function updateColorSpec(colorName, priceText, titleColor){
   nameEl.textContent = 'AURORA ONE - ' + colorName;
+  nameEl.textContent = `AURORA ONE -  colorName`;
 }
