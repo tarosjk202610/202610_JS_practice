@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>AURORA ONE - カラーシミュレーター</title>
+  <script src="main.js" defer></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .simulator-box { border: 1px solid #ccc; padding: 20px; border-radius: 8px; max-width: 400px; }
+    .btn-group { margin-top: 15px; display: flex; gap: 10px; }
+    button { padding: 8px 16px; cursor: pointer; border: 1px solid #333; border-radius: 4px; background: #fff; }
+  </style>
+</head>
+<body>
+  <h1>AURORA ONE カラーシミュレーター</h1>
+
+  <div class="simulator-box">
+    <!-- 商品名・価格 -->
+    <h2 id="product-name">AURORA ONE - マットブラック</h2>
+    <p id="product-price" style="font-size: 20px; font-weight: bold;">¥29,800（税込）</p>
+
+    <!-- カラー選択ボタン群 -->
+    <p>カラーを選択してください：</p>
+    <div class="btn-group">
+      <button id="btn-black">マットブラック</button>
+      <button id="btn-blue">オーロラブルー</button>
+      <button id="btn-silver">プラチナシルバー</button>
+    </div>
+  </div>
+</body>
+</html>
