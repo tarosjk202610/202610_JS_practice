@@ -17,4 +17,6 @@ const btnSilver = document.querySelector('#btn-silver');
  * @param {string} titleColor タイトルの文字色
  * @return {void}
  */
-function updateColorSpec(colorName, priceText, titleColor){}
+function updateColorSpec(colorName, priceText, titleColor){
+  nameEl.textContent = 'AURORA ONE - ' + colorName;
+}
