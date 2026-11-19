@@ -210,4 +210,5 @@ const btnB = document.querySelector('#btn-b') //ボタンB
 
 btnA.addEventListener('click', function(){
   itemName.textContent = btnA.dataset.name;
+  itemPrice.textContent = btnA.dataset.price;
 });
