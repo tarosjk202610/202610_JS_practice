@@ -207,3 +207,5 @@ const itemName = document.querySelector('#item-name') //商品名表示欄
 const itemPrice = document.querySelector('#item-price') //価格表示欄
 const btnA = document.querySelector('#btn-a') //ボタンA
 const btnB = document.querySelector('#btn-b') //ボタンB
+
+btnA.addEventListener('click', function(){});
