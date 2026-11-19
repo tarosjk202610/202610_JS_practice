@@ -18,6 +18,7 @@ function updateColorSpec(button) {
   console.log(button);//要素の簡易的な情報を見る
   console.dir(button);//要素の詳しい情報見る
   nameEl.textContent = `AURORA ONE - ${button.dataset.name}`;
+  priceEl.textContent = button.dataset.price;
 }
 /**
  * カラーシミュレーターの表示を変更する(JSDoc)
