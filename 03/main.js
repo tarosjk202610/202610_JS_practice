@@ -85,4 +85,5 @@ const card = document.querySelector('#card');
 
 moveBtn.addEventListener('click', function(){
   card.style.transform = 'translate(100px, 30px) scale(1.5)';
+  card.style.opacity = '0.7';
 });
