@@ -10,3 +10,7 @@ cardList.forEach(function(singleCard){
     singleCard.style.backgroundColor = '#00d2ff';
   });
 });
+
+// ================================
+// 配列
+const colors = ['ブラック', 'シルバー', 'ネイビー'];
