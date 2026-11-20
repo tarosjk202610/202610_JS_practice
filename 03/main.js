@@ -96,7 +96,7 @@ resetBtn.addEventListener('click', function(){
 
 
 moveBtn.addEventListener('click', function(){
-  
+  card.animate();
 });
 
 resetBtn.addEventListener('click', function(){
