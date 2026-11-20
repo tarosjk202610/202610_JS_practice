@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>3-01: 複数要素の操作 (querySelectorAll & forEach)</title>
+  <script src="main.js" defer></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .card-container { display: flex; gap: 15px; }
+    /* 3つのカード共通のスタイル */
+    .card {
+      border: 2px solid #333;
+      padding: 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 120px;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <h1>複数カードの一括コントロール練習</h1>
+  <p>どのカードをクリックしても反応するようにしてみよう！</p>
+
+  <div class="card-container">
+    <!-- 同じ「card」クラスを持つ3つの要素 -->
+    <div class="card">カード 1</div>
+    <div class="card">カード 2</div>
+    <div class="card">カード 3</div>
+  </div>
+</body>
+</html>
