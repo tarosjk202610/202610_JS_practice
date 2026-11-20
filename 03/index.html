@@ -29,6 +29,21 @@
       border-radius: 8px;
       margin-top: 15px;
     }
+
+    /* アニメーション対象のカード */
+    .animate-card {
+      width: 200px;
+      padding: 20px;
+      background: #111;
+      color: #fff;
+      border-radius: 8px;
+      text-align: center;
+      /* 変化を滑らかにするCSSアニメーション設定 */
+      transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+
+    .btn-container { margin-bottom: 20px; display: flex; gap: 10px; }
+    button { padding: 8px 16px; cursor: pointer; }
   </style>
 </head>
 <body>
