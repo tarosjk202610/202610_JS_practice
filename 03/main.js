@@ -39,4 +39,6 @@ colors.forEach((color, index) => {
 const earphone = {
   name: 'AURORA ONE',
   price: 29800,
+  color: 'マットブラック',
+  isNoiseCanceling: true,
 };
