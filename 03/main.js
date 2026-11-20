@@ -29,3 +29,7 @@ console.log('追加後の配列全体',colors);
 colors.forEach(function(color, index){
   console.log(`${index + 1}番目のカラーは${color}`);
 });
+
+colors.forEach((color, index) => {
+  console.log(`${index + 1}番目のカラーは${color}`);
+});
