@@ -36,4 +36,7 @@ colors.forEach((color, index) => {
 
 // ================================
 // オブジェクト
-const earphone = {};
+const earphone = {
+  name: 'AURORA ONE',
+  price: 29800,
+};
