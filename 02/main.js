@@ -54,3 +54,15 @@ btnSilver.addEventListener('click', function(){
   // updateColorSpec('プラチナシルバー', '￥29,800（税込）', '#8a9ea7');
   updateColorSpec(btnSilver);
 });
+
+// func = xyz: function() {}
+function abc(func) {
+  const x = 'リンゴ';
+  func(x);
+}
+
+const xyz = function(x) {
+  console.log(`${x}は150円です`)
+};
+ 
+abc(xyz);
