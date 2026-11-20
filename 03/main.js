@@ -103,7 +103,9 @@ moveBtn.addEventListener('click', function(){
         opacity: 0.7,
       }
     ],
-    {}
+    {
+      duration: 500,
+    }
   );
 });
 
