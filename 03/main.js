@@ -82,3 +82,5 @@ applyBtn.addEventListener('click', function(){
 const moveBtn = document.querySelector('#move-btn');
 const resetBtn = document.querySelector('#reset-btn');
 const card = document.querySelector('#card');
+
+moveBtn.addEventListener('click', function(){});
