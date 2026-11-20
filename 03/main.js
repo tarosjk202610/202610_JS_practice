@@ -87,3 +87,8 @@ moveBtn.addEventListener('click', function(){
   card.style.transform = 'translate(100px, 30px) scale(1.5)';
   card.style.opacity = '0.7';
 });
+
+resetBtn.addEventListener('click', function(){
+  card.style.transform = 'translate(0px, 0px) scale(1)';
+  card.style.opacity = '1';
+});
