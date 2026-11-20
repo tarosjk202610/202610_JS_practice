@@ -98,10 +98,15 @@ resetBtn.addEventListener('click', function(){
 moveBtn.addEventListener('click', function(){
   card.animate(
     [
+      // 0%
+      {
+        transform: 'translate(0px, 0px) scale(1)',
+      },
+      // 100%
       {
         transform: 'translate(100px, 30px) scale(1.5)',
         opacity: 0.7,
-      }
+      },
     ],
     {
       duration: 500,
