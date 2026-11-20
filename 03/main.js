@@ -59,3 +59,10 @@ console.log(earphone.targetKey, earphone[targetKey]);
 console.log( '入れ子', earphone.battery.continuous );
 
 earphone.play();
+
+const boxConfig = {
+  title: "変身完了！",
+  bgColor: "#00d2ff",
+  textColor: "#ffffff",
+  fontSize: "20px",
+};
