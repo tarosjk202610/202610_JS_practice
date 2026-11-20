@@ -70,4 +70,6 @@ const boxConfig = {
 const applyBtn = document.querySelector('#apply-btn');
 const targetBox = document.querySelector('#target-box');
 
-applyBtn.addEventListener('click', function(){});
+applyBtn.addEventListener('click', function(){
+  targetBox.textContent = boxConfig.title;
+});
