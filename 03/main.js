@@ -84,5 +84,5 @@ const resetBtn = document.querySelector('#reset-btn');
 const card = document.querySelector('#card');
 
 moveBtn.addEventListener('click', function(){
-  card.style.transform = 'translate(100px, 30px) scale(1.1)';
+  card.style.transform = 'translate(100px, 30px) scale(1.5)';
 });
