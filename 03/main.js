@@ -111,6 +111,7 @@ moveBtn.addEventListener('click', function(){
       {
         transform: 'translate(100px, 30px) scale(1.5)',
         opacity: 0.7,
+        backgroundColor: 'pink',
       },
     ],
     {
