@@ -45,7 +45,9 @@ const earphone = {
     continuous: '８時間',
     withCase: '32時間',
   },
-  play: function(){},
+  play: function(){
+    console.log('AURORA ONEで音楽を再生します');
+  },
 };
 
 console.log('ドット記法', earphone.name);
