@@ -96,7 +96,15 @@ resetBtn.addEventListener('click', function(){
 
 
 moveBtn.addEventListener('click', function(){
-  card.animate();
+  card.animate(
+    [
+      {
+        transform: 'translate(100px, 30px) scale(1.5)',
+        opacity: 0.7,
+      }
+    ],
+    {}
+  );
 });
 
 resetBtn.addEventListener('click', function(){
