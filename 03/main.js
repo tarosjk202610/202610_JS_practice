@@ -26,6 +26,6 @@ colors.push('ゴールド');
 console.log('追加後の配列全体',colors);
 
 // forEach
-colors.forEach(function(color){
+colors.forEach(function(color, index){
   console.log(`カラーは${color}`);
 });
