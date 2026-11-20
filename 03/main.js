@@ -45,6 +45,7 @@ const earphone = {
     continuous: '８時間',
     withCase: '32時間',
   },
+  play: function(){},
 };
 
 console.log('ドット記法', earphone.name);
