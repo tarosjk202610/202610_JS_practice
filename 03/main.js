@@ -16,3 +16,4 @@ cardList.forEach(function(singleCard){
 const colors = ['ブラック', 'シルバー', 'ネイビー'];
 
 console.log('配列全体', colors);
+console.log('１番目のデータ', colors[0]);
