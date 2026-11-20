@@ -47,4 +47,4 @@ console.log('ドット記法', earphone.name);
 console.log('ブラケット記法', earphone['price']);
 
 const targetKey = 'isNoiseCanceling';
-console.log();
+console.log(earphone.targetKey, earphone[targetKey]);
