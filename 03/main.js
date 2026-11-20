@@ -57,3 +57,5 @@ const targetKey = 'isNoiseCanceling';
 console.log(earphone.targetKey, earphone[targetKey]);
 
 console.log( '入れ子', earphone.battery.continuous );
+
+earphone.play();
