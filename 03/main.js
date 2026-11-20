@@ -81,3 +81,4 @@ applyBtn.addEventListener('click', function(){
 // CSSアニメーション
 const moveBtn = document.querySelector('#move-btn');
 const resetBtn = document.querySelector('#reset-btn');
+const card = document.querySelector('#card');
