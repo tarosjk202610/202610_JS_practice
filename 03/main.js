@@ -114,7 +114,7 @@ moveBtn.addEventListener('click', function(){
       },
     ],
     {
-      duration: 500,
+      duration: 1000,
       fill: 'forwards',
       easing: 'ease-out',
     }
