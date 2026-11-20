@@ -102,6 +102,11 @@ moveBtn.addEventListener('click', function(){
       {
         transform: 'translate(0px, 0px) scale(1)',
       },
+      // 50%
+      {
+        transform: 'translate(0px, 0px) scale(1)',
+        backgroundColor: 'pink',
+      },
       // 100%
       {
         transform: 'translate(100px, 30px) scale(1.5)',
