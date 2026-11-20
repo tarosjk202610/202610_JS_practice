@@ -17,3 +17,5 @@ const colors = ['ブラック', 'シルバー', 'ネイビー'];
 
 console.log('配列全体', colors);
 console.log('１番目のデータ', colors[0]);
+console.log('３番目のデータ', colors[2]);
+console.log('5番目のデータ', colors[4]);
