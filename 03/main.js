@@ -14,3 +14,5 @@ cardList.forEach(function(singleCard){
 // ================================
 // 配列
 const colors = ['ブラック', 'シルバー', 'ネイビー'];
+
+console.log('配列全体', colors);
