@@ -1,0 +1,1 @@
+const cardList = document.querySelectorAll('.card');
