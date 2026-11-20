@@ -76,3 +76,7 @@ applyBtn.addEventListener('click', function(){
   targetBox.style.color = boxConfig.textColor;
   targetBox.style.fontSize = boxConfig.fontSize;
 });
+
+// ================================
+// CSSアニメーション
+
