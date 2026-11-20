@@ -66,3 +66,6 @@ const boxConfig = {
   textColor: "#ffffff",
   fontSize: "20px",
 };
+
+const applyBtn = document.querySelector('#apply-btn');
+const targetBox = document.querySelector('#target-box');
