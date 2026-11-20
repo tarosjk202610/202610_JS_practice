@@ -41,6 +41,10 @@ const earphone = {
   price: 29800,
   color: 'マットブラック',
   isNoiseCanceling: true,
+  battery: {
+    continuous: '８時間',
+    withCase: '32時間',
+  },
 };
 
 console.log('ドット記法', earphone.name);
@@ -48,3 +52,4 @@ console.log('ブラケット記法', earphone['price']);
 
 const targetKey = 'isNoiseCanceling';
 console.log(earphone.targetKey, earphone[targetKey]);
+
