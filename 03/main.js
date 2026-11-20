@@ -33,3 +33,7 @@ colors.forEach(function(color, index){
 colors.forEach((color, index) => {
   console.log(`${index + 1}番目のカラーは${color}`);
 });
+
+// ================================
+// オブジェクト
+const earphone = {};
