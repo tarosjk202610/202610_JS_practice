@@ -42,3 +42,5 @@ const earphone = {
   color: 'マットブラック',
   isNoiseCanceling: true,
 };
+
+console.log('ドット記法', earphone.name);
