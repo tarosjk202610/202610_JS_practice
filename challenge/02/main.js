@@ -8,6 +8,9 @@
 // ・toggleBtn  : ID名 "#toggle-btn" の要素を取得
 
 // ↓ ここから記述（querySelector を使って3つの要素を取得してください）
+const card = document.querySelector('#card');
+const statusText = document.querySelector('#status-text');
+const toggleBtn = document.querySelector('#toggle-btn');
 
 
 // 【問題2】「切り替えボタン（toggleBtn）」をクリックした時の処理を書こう
