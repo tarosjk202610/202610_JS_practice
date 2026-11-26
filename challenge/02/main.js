@@ -24,3 +24,4 @@ const toggleBtn = document.querySelector('#toggle-btn');
 //        toggleBtn  ➡️ "ダークモードに切り替える"
 
 // ↓ ここから記述
+toggleBtn.addEventListener('click', function(){});
