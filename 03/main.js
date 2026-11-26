@@ -125,6 +125,7 @@ moveBtn.addEventListener('click', function(){
 resetBtn.addEventListener('click', function(){
   card.animate(
     [
+      // 100%
       {
         transform: 'translate(0px, 0px) scale(1)',
         backgroundColor: 'black',
