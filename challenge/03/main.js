@@ -19,7 +19,9 @@ const calcBtn = document.querySelector('#calc-btn');
 // ・処理  : price * 1.1 の計算結果を Math.floor() で端数切り捨てして return（返却）する
 
 // ↓ ここから記述
-function getTaxIncludedPrice(){}
+function getTaxIncludedPrice(price){
+  return Math.floor(price * 1.1);
+}
 
 
 // 【問題3】「計算ボタン（calcBtn）」をクリックした時の処理を書こう
