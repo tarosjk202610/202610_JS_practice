@@ -31,3 +31,6 @@ function getTaxIncludedPrice(price){
 // ※ 必要であれば自由に定数・変数を自作してもOKです
 
 // ↓ ここから記述
+calcBtn.addEventListener('click', function(){
+  
+});
