@@ -26,6 +26,6 @@ const toggleBtn = document.querySelector('#toggle-btn');
 // ↓ ここから記述
 toggleBtn.addEventListener('click', function(){
 
-  card.toggle();
+  card.classList.toggle('is-dark');
 
 });
