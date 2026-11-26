@@ -33,6 +33,9 @@ toggleBtn.addEventListener('click', function(){
   if(card.classList.contains('is-dark')) {
     statusText.textContent = "現在はダークモードです";
     toggleBtn.textContent = "ライトモードに切り替える";
+  } else {
+    statusText.textContent = "現在はライトモードです";
+    toggleBtn.textContent = "ダークモードに切り替える";
   }
 
 });
