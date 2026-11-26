@@ -123,5 +123,12 @@ moveBtn.addEventListener('click', function(){
 });
 
 resetBtn.addEventListener('click', function(){
-  card.animate();
+  card.animate(
+    [
+      {
+        transform: 'translate(0px, 0px) scale(1)',
+      },
+    ],
+    {}
+  );
 });
