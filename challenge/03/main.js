@@ -32,5 +32,5 @@ function getTaxIncludedPrice(price){
 
 // ↓ ここから記述
 calcBtn.addEventListener('click', function(){
-  
+  Number(basePriceEl.textContent);
 });
