@@ -123,5 +123,5 @@ moveBtn.addEventListener('click', function(){
 });
 
 resetBtn.addEventListener('click', function(){
-  
+  card.animate();
 });
