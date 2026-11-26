@@ -127,8 +127,13 @@ resetBtn.addEventListener('click', function(){
     [
       {
         transform: 'translate(0px, 0px) scale(1)',
+        backgroundColor: 'black',
       },
     ],
-    {}
+    {
+      duration: 1000,
+      fill: 'forwards',
+      easing: 'ease-out',
+    }
   );
 });
