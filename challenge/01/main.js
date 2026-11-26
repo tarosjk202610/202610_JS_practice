@@ -17,8 +17,14 @@ const btnEn = document.querySelector('#btn-en');
 //         message.textContent を書き換えます
 
 // ↓ ここから記述
+btnJp.addEventListener('click', function(){
+  message.textContent = 'こんにちは！';
+});
 
 
 // 【問題3】「英語にする」ボタン（btnEn）をクリックした時、メッセージを「Hello!」に変えよう
 
 // ↓ ここから記述
+btnEn.addEventListener('click', function(){
+  message.textContent = 'Hello!';
+});
