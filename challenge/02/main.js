@@ -28,4 +28,6 @@ toggleBtn.addEventListener('click', function(){
 
   card.classList.toggle('is-dark');
 
+  console.log(card.classList.contains('is-dark'));
+
 });
