@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background-color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background-color 0.3s;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #1e293b;
+  padding: 3rem 4rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* ダークモード時のスタイル */
+.card.is-dark {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+button {
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* ダークモード時のボタン色変化 */
+.card.is-dark button {
+  background-color: #f59e0b;
+  color: #0f172a;
+}
+
+.card.is-dark button:hover {
+  background-color: #d97706;
+}
