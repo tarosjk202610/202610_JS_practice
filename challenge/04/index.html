@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step 4: data-* 属性と forEach 繰り返し処理</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+  <div class="card">
+    <div class="product-preview">
+      <h1 id="product-name" style="color: #1e293b;">Standard Model</h1>
+      <p class="price-label">価格: <span id="product-price">5000</span>円</p>
+    </div>
+
+    <!-- すべてのボタンに共通のクラス .color-btn と data-* 属性を設定 -->
+    <div class="btn-group">
+      <button class="color-btn" data-name="Blue Edition" data-price="6000" data-color="#2563eb">ブルー</button>
+      <button class="color-btn" data-name="Red Edition" data-price="6500" data-color="#dc2626">レッド</button>
+      <button class="color-btn" data-name="Black Edition" data-price="7000" data-color="#0f172a">ブラック</button>
+    </div>
+  </div>
+  
+</body>
+</html>
