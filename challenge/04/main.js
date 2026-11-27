@@ -21,4 +21,8 @@ const colorBtns = document.querySelectorAll('.color-btn');
 //    ・productName.style.color  を btn.dataset.color で書き換え
 
 // ↓ ここから記述
-colorBtns.forEach(function(btn){});
+colorBtns.forEach(function(btn){
+  btn.addEventListener('click', function(){
+    
+  });
+});
