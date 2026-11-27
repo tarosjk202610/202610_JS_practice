@@ -23,6 +23,6 @@ const colorBtns = document.querySelectorAll('.color-btn');
 // ↓ ここから記述
 colorBtns.forEach(function(btn){
   btn.addEventListener('click', function(){
-    
+    productName.textContent = btn.dataset.name;
   });
 });
