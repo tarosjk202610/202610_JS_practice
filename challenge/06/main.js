@@ -52,5 +52,5 @@ hamburgerBtn.addEventListener('click', function(){
 
 // 2. 続いて if 文を使い、ナビの開閉状態（is-active がついているか）で処理を分岐させます。
 //
-// 
+  if(navMenu.classList.contains('is-active'))
 });
