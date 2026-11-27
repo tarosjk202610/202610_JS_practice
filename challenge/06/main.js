@@ -86,7 +86,11 @@ hamburgerBtn.addEventListener('click', function () {
             transform: 'translateY(0)',
           }
         ],
-        {}
+        {
+          duration: 400,
+          easing: 'ease-out',
+          fill: 'both',
+        }
       );
     });
 
