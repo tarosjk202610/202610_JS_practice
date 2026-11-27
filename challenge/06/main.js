@@ -45,13 +45,13 @@ const navItems = document.querySelectorAll('.nav-item');
 // ↓ ここから記述
 
 
-hamburgerBtn.addEventListener('click', function(){
+hamburgerBtn.addEventListener('click', function () {
   // 1. まず、hamburgerBtn と navMenu の両方のクラスに "is-active" をトグル（つけ外し）してください。
   hamburgerBtn.classList.toggle('is-active');
   navMenu.classList.toggle('is-active');
 
-// 2. 続いて if 文を使い、ナビの開閉状態（is-active がついているか）で処理を分岐させます。
-  if(navMenu.classList.contains('is-active')) {
+  // 2. 続いて if 文を使い、ナビの開閉状態（is-active がついているか）で処理を分岐させます。
+  if (navMenu.classList.contains('is-active')) {
     navMenu.animate(
       [
         // 0%
@@ -72,22 +72,33 @@ hamburgerBtn.addEventListener('click', function(){
       }
     );
 
-    navItems.forEach(function(item, index){
+    navItems.forEach(function (item, index) {
       item.animate(
-        [],
+        [
+          // 0%
+          {
+            opacity: 0,
+            transform: 'translateY(25px)',
+          },
+          // 100%
+          {
+            opacity: 1,
+            transform: 'translateY(0)',
+          }
+        ],
         {}
       );
     });
 
-//     ② メニュー項目（navItems）の時差アニメーション設定
-//       navItems を forEach で回し、各項目を下から順に時間差でフェードスライドインさせます。
-//       ※ forEach の引数には (item, index) のように【2つの引数】を設定してください。
-//         （理由: 各項目の遅延時間 delay を計算するために、インデックス番号 index が必要なため）
-//
-//       ・第1引数（キーフレーム）: 開始 0% ➔ 不透明度 0、Y軸 25px / 完了 100% ➔ 不透明度 1、Y軸 0
-//       ・第2引数（オプション）  : 再生時間 400ms、イージング "ease-out"、遅延時間 (index * 100 + 150)、fill "both"
-//         （※ fill に "both" を指定することで、遅延時間中のチラつきを防ぎつつ完了後の表示も保持されます）
-//
-//   
+    //     ② メニュー項目（navItems）の時差アニメーション設定
+    //       navItems を forEach で回し、各項目を下から順に時間差でフェードスライドインさせます。
+    //       ※ forEach の引数には (item, index) のように【2つの引数】を設定してください。
+    //         （理由: 各項目の遅延時間 delay を計算するために、インデックス番号 index が必要なため）
+    //
+    //       ・第1引数（キーフレーム）: 開始 0% ➔ 不透明度 0、Y軸 25px / 完了 100% ➔ 不透明度 1、Y軸 0
+    //       ・第2引数（オプション）  : 再生時間 400ms、イージング "ease-out"、遅延時間 (index * 100 + 150)、fill "both"
+    //         （※ fill に "both" を指定することで、遅延時間中のチラつきを防ぎつつ完了後の表示も保持されます）
+    //
+    //   
   }
 });
