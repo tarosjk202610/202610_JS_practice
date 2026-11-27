@@ -37,3 +37,9 @@ const loadBtn = document.querySelector('#load-btn');
 // ⑤ tag2El  の textContent ➡️ productData.tags の 2つ目の要素（インデックス 1）
 
 // ↓ ここから記述
+
+loadBtn.addEventListener('click', function(){
+  badgeEl.textContent = productData.category;
+  titleEl.textContent = productData.name;
+  priceEl.textContent = productData.price;
+});
