@@ -45,3 +45,10 @@ loadBtn.addEventListener('click', function(){
   tag1El.textContent = productData.tags[0];
   tag2El.textContent = productData.tags[1];
 });
+
+async function fetchAddress() {
+  const resource = await fetch('https://api.zipaddress.net/?zipcode=1640001');
+  const addressData = await resource.json();
+  console.log(addressData);
+}
+fetchAddress();
