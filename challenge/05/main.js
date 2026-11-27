@@ -50,5 +50,7 @@ async function fetchAddress() {
   const resource = await fetch('https://api.zipaddress.net/?zipcode=1640001');
   const addressData = await resource.json();
   console.log(addressData);
+
+  console.log(addressData.data.fullAddress);
 }
 fetchAddress();
