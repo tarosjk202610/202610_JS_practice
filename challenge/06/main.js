@@ -90,6 +90,7 @@ hamburgerBtn.addEventListener('click', function () {
           duration: 400,
           easing: 'ease-out',
           fill: 'both',
+          delay: index * 100 + 150,
         }
       );
     });
