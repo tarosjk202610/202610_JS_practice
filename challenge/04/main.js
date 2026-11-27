@@ -8,6 +8,9 @@
 // ・colorBtns    : クラス名 ".color-btn" の要素を【すべて】取得（querySelectorAll を使用）
 
 // ↓ ここから記述（3つの定数を定義してください）
+const productName = document.querySelector('#product-name');
+const productPrice = document.querySelector('#product-price');
+const colorBtns = document.querySelectorAll('.color-btn');
 
 
 // 【問題2】forEach を使って、すべてのボタンに一括でクリックイベントを設定しよう
