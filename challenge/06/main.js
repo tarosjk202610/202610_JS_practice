@@ -51,8 +51,22 @@ hamburgerBtn.addEventListener('click', function(){
   navMenu.classList.toggle('is-active');
 
 // 2. 続いて if 文を使い、ナビの開閉状態（is-active がついているか）で処理を分岐させます。
-//
   if(navMenu.classList.contains('is-active')) {
+    navMenu.animate(
+      [
+        // 0%
+        {
+          opacity: 0,
+          transform: 'translateY(-20px)',
+        },
+        // 100%
+        {
+          opacity: 1,
+          transform: 'translateY(0)',
+        }
+      ],
+      {}
+    );
     //     ① メニュー背景（navMenu）のアニメーション設定
 //       ・第1引数（キーフレーム）: 開始 0% ➔ 不透明度 0、Y軸 -20px / 完了 100% ➔ 不透明度 1、Y軸 0
 //       ・第2引数（オプション）  : 再生時間 300ms、イージング "ease-out"、fill "both"
