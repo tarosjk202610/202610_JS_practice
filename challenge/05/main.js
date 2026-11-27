@@ -42,4 +42,5 @@ loadBtn.addEventListener('click', function(){
   badgeEl.textContent = productData.category;
   titleEl.textContent = productData.name;
   priceEl.textContent = productData.price;
+  tag1El.textContent = productData.tags;
 });
