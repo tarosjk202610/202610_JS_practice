@@ -8,7 +8,9 @@
 // ・navItems     : クラス名 ".nav-item" のメニュー項目を【すべて】取得（querySelectorAll）
 
 // ↓ ここから記述（3つの定数を定義してください）
-
+const hamburgerBtn = document.querySelector('#hamburger-btn');
+const navMenu = document.querySelector('#nav-menu');
+const navItems = document.querySelectorAll('.nav-item');
 
 
 
