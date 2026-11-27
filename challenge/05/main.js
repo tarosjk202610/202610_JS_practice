@@ -20,6 +20,12 @@ const productData = {
 // ・loadBtn : ID名 "#load-btn" のボタン要素
 
 // ↓ ここから記述（6つの定数を定義してください）
+const badgeEl = document.querySelector('#product-badge');
+const titleEl = document.querySelector('#product-title');
+const priceEl = document.querySelector('#product-price');
+const tag1El = document.querySelector('#tag-1');
+const tag2El = document.querySelector('#tag-2');
+const loadBtn = document.querySelector('#load-btn');
 
 
 // 【問題2】「読み込みボタン（loadBtn）」をクリックした時の処理を書こう
