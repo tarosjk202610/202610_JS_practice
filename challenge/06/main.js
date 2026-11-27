@@ -66,15 +66,12 @@ hamburgerBtn.addEventListener('click', function(){
         }
       ],
       {
-        duration: 300,
+        duration: 1000,
         easing: 'ease-out',
-        fill: 'both', // 開始前と完了後のスタイルを両方ともキープする
+        fill: 'both', // 開始前(backwards)と完了後(forwards)のスタイルを両方(both)ともキープする
       }
     );
-    //     ① メニュー背景（navMenu）のアニメーション設定
-//       ・第1引数（キーフレーム）: 開始 0% ➔ 不透明度 0、Y軸 -20px / 完了 100% ➔ 不透明度 1、Y軸 0
-//       ・第2引数（オプション）  : 再生時間 300ms、イージング "ease-out"、fill "both"
-//
+
 //     ② メニュー項目（navItems）の時差アニメーション設定
 //       navItems を forEach で回し、各項目を下から順に時間差でフェードスライドインさせます。
 //       ※ forEach の引数には (item, index) のように【2つの引数】を設定してください。
