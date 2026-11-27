@@ -24,5 +24,7 @@ const colorBtns = document.querySelectorAll('.color-btn');
 colorBtns.forEach(function(btn){
   btn.addEventListener('click', function(){
     productName.textContent = btn.dataset.name;
+    productPrice.textContent = btn.dataset.price;
+    productName.style.color = btn.dataset.color;
   });
 });
