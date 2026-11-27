@@ -72,6 +72,13 @@ hamburgerBtn.addEventListener('click', function(){
       }
     );
 
+    navItems.forEach(function(item, index){
+      item.animate(
+        [],
+        {}
+      );
+    });
+
 //     ② メニュー項目（navItems）の時差アニメーション設定
 //       navItems を forEach で回し、各項目を下から順に時間差でフェードスライドインさせます。
 //       ※ forEach の引数には (item, index) のように【2つの引数】を設定してください。
