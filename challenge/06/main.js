@@ -66,7 +66,7 @@ hamburgerBtn.addEventListener('click', function(){
         }
       ],
       {
-        duration: 1000,
+        duration: 300,
         easing: 'ease-out',
         fill: 'both', // 開始前(backwards)と完了後(forwards)のスタイルを両方(both)ともキープする
       }
