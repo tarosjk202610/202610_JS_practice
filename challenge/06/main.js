@@ -45,3 +45,10 @@ const navItems = document.querySelectorAll('.nav-item');
 // ↓ ここから記述
 
 
+hamburgerBtn.addEventListener('click', function(){
+  // 1. まず、hamburgerBtn と navMenu の両方のクラスに "is-active" をトグル（つけ外し）してください。
+//
+// 2. 続いて if 文を使い、ナビの開閉状態（is-active がついているか）で処理を分岐させます。
+//
+// 
+});
