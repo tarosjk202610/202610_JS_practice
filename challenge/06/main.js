@@ -65,7 +65,11 @@ hamburgerBtn.addEventListener('click', function(){
           transform: 'translateY(0)',
         }
       ],
-      {}
+      {
+        duration: 300,
+        easing: 'ease-out',
+        fill: 'both', // 開始前と完了後のスタイルを両方ともキープする
+      }
     );
     //     ① メニュー背景（navMenu）のアニメーション設定
 //       ・第1引数（キーフレーム）: 開始 0% ➔ 不透明度 0、Y軸 -20px / 完了 100% ➔ 不透明度 1、Y軸 0
